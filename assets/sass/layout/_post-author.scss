@@ -1,0 +1,37 @@
+.post-author {
+    border: 1px solid $light-gray;
+    a {
+        @include bs-link;
+        font-size: $large;
+    }
+}
+
+.post-author__img {
+    img {
+        border-radius: 100%;
+        border: 1px solid $light-gray;
+        width: 100%;
+        max-width: 145px;
+    }
+}
+
+.post-author__info {
+    h5 {
+        font-size: $x-large;
+        font-style: $italic;
+    }
+}
+
+.post-author__bio {
+    font-size: $small;
+    line-height: 35px;
+    color: $nickel;
+    font-weight: $font-regular;
+}
+
+@media (max-width: 767.98px) {
+    .post-author__img {
+        img {width: 130px;}
+        
+    }
+}

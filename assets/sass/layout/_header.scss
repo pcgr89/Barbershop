@@ -1,0 +1,35 @@
+.header  {
+    background-image: url('../images/post-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 44rem;
+    background-position: center;
+    position: relative;
+}
+
+.header__title {
+    font-size: $xx-large;
+    font-weight: $font-heavy;
+    font-style: $italic;
+}
+
+.header__arrow {
+    position: absolute;
+    bottom: 4rem;
+    left: 50%;
+    transform: translate(-50%);
+    i {
+        font-size: 40px;
+    }
+}
+@media (max-width: 767.98px) {
+    .header__title {
+        font-size: $x-large;
+    }
+
+    .header__arrow {
+        i {
+            font-size: $x-large;
+        }
+    }
+}

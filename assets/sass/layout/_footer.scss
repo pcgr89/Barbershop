@@ -1,0 +1,14 @@
+.footer {
+    background-color: $eerie-black;
+    img {
+        width: 122px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .footer {
+        img {
+            width: 80px;
+        }
+    }
+}

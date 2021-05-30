@@ -1,0 +1,16 @@
+.main_content__button_medium, .main_content__button_small {
+    background-color: $nickel;
+    padding: 1rem;
+    border: 3px solid $nickel;
+    border-radius: 50px;
+    color: $white;
+    &:hover {
+        background-color: $light-gray;
+        border: 3px solid $light-gray;
+    }
+
+    &:focus {
+        background-color: $nickel;
+        border: 3px solid $light-gray;
+    }
+}

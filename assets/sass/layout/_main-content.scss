@@ -1,0 +1,25 @@
+#main-content {
+    a {
+        @include bs-link;
+    }
+}
+
+#main-content__date {
+    font-size: $large;
+}
+
+#main-content__text {
+    line-height: 45px;
+    font-weight: $font-light;
+}
+
+@media (max-width: 767.98px) {
+    #main-content__date {
+        font-size: $medium;
+    }
+
+    #main-content__text {
+        line-height: 40px;
+        font-weight: $font-light;
+    }
+}

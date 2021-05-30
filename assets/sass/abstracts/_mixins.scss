@@ -1,0 +1,14 @@
+//Mixin Links
+
+@mixin bs-link {
+    color: $link-primary;
+    text-decoration: none;
+    font-weight: $font-light;
+    &:hover {
+        color: $link-secondary;
+    }
+
+    &:active {
+        color: $platinum;
+    }
+}
